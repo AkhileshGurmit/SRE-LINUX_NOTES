@@ -1,4 +1,4 @@
-Shell
+# big Shell
 It is a program that allows interaction between user and operating system.
 
 
@@ -9,7 +9,7 @@ Each user in system gets own home directory which is able to store/retrieve the 
 
 Home directory is represented by tilde(~) symbol.
 
-
+ 
 command and argument
 command <options> argument-----> echo -n hello
 command = echo
@@ -63,5 +63,6 @@ Enter the new Value or press for default.
     Login Shell[/bin/bash] :/bin/bash```
 
 
-
+Bash Shell Features:
+Alias
 
