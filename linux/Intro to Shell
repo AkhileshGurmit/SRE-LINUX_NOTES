@@ -50,16 +50,16 @@ Shell types:
 All shells have the Common purpose to facilitate between OS and USER.
 
 
-To Check shell in use: '''echo $shell
-                          /bin/bash'''
+To Check shell in use: ```echo $shell
+                          /bin/bash```
 
 
 To change the shell from one to another:
-'''[~]& chsh
+```[~]& chsh
 password:
 Changing the shell for XYZ:
 Enter the new Value or press for default.
-    Login Shell[/bin/bash] :/bin/bash'''
+    Login Shell[/bin/bash] :/bin/bash```
 
 
 
