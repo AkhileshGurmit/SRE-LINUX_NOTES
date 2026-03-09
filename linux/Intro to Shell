@@ -1,4 +1,4 @@
-# big Shell
+Shell
 It is a program that allows interaction between user and operating system.
 
 
@@ -64,5 +64,33 @@ Enter the new Value or press for default.
 
 
 Bash Shell Features:
-Alias
+Alias-----> alias dt=date [To check date we can use the dt now]
+History----> Lists Previously entered commands.
 
+Bash Environment Variables
+[~]$ echo $shell
+     /bin/bash
+
+[~]$ env-----> gives the all environment Variables.
+[~]$ export---> To create a new environment
+
+### BASH PROMT ####
+[~]$
+-~ =Present Working Directory.
+$ =User Prompt Symbol
+
+Customize the prompt variable using P1:
+[~]$PS1="Ubuntu-Server:"
+Ubuntu-Server
+
+Ubuntu-server:echo $PS1
+ubuntu Server:
+
+\d--------> The date in Weekday month format
+\t--------> The Current time in 12 hr HH:MM:SS format.
+\u--------> Username of the Current User.
+\H--------> The Complete Hostname.
+\W--------> The Current WOrking Directory.
+
+ubuntu-server: PS1="[\d \t \u@h:\w]" 
+[Thu Mar 12 22:12:23 Vicky@cal]
