@@ -16,6 +16,7 @@ command = echo
 options = -n
 argument = hello
 
+|---------------------------------------------------------|
 
 
 Command Types
@@ -23,4 +24,43 @@ Command Types
 2. External Commands: mv,date,cp,uptime.....etc
 
 To Check external or internal command------> type <command>
+
+Absolute and Relative Path
+linux/Absolute & Relative Path.png
+
+ls commands
+ls -l ------> Long List
+ls -la ------> List all files including hidden files.
+ls -lt -------> Long list files in order Created.
+ls -ltr -------> List files in the reverse Order Created.
+
+
+
+|------------------------------------------------------------|
+
+
+###### BASH SHELL #######
+Shell types:
+1. Bourne shell (sh) 
+2. C Shell (csh or tcsh)
+3. Korn Shell (ksh)
+4. Z Shell (zsh)
+5. Bourne again shell (bash)
+
+All shells have the Common purpose to facilitate between OS and USER.
+
+
+To Check shell in use: '''echo $shell
+                          /bin/bash'''
+
+
+To change the shell from one to another:
+'''[~]& chsh
+password:
+Changing the shell for XYZ:
+Enter the new Value or press for default.
+    Login Shell[/bin/bash] :/bin/bash'''
+
+
+
 
