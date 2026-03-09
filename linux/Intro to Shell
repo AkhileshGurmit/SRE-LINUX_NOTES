@@ -50,7 +50,8 @@ Shell types:
 All shells have the Common purpose to facilitate between OS and USER.
 
 
-To Check shell in use: ```echo $shell
+To Check shell in use: ```markdown 
+                          echo $shell
                           /bin/bash```
 
 
