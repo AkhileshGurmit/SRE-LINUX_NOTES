@@ -1,0 +1,26 @@
+Shell
+It is a program that allows interaction between user and operating system.
+
+
+/home
+home directory which is created by the system.
+home directory allows to store the personal data in form of files.
+Each user in system gets own home directory which is able to store/retrieve the data.
+
+Home directory is represented by tilde(~) symbol.
+
+
+command and argument
+command <options> argument-----> echo -n hello
+command = echo
+options = -n
+argument = hello
+
+
+
+Command Types
+1. Internal or Built-in commands: echo,cd,pwd,set......etc
+2. External Commands: mv,date,cp,uptime.....etc
+
+To Check external or internal command------> type <command>
+
