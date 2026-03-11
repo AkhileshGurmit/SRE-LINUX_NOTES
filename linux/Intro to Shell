@@ -94,3 +94,4 @@ ubuntu Server:
 
 ubuntu-server: PS1="[\d \t \u@h:\w]" 
 [Thu Mar 12 22:12:23 Vicky@cal]
+
